@@ -26,8 +26,10 @@
 ---
 
 ## 📄 Sample Output
-
 Typical terminal output after running tests:
+<p align="center">
+  <img src="[https://github.com/user-attachments/assets/f6a32b7b-3b91-4875-97f5-afe998db44e5" width="600](https://github.com/ramasham/Libunit/issues/1#issue-3287265764)" />
+</p>
 
 ---
 ## 📂 Project Structure
