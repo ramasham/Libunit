@@ -27,9 +27,7 @@
 
 ## 📄 Sample Output
 Typical terminal output after running tests:
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f6a32b7b-3b91-4875-97f5-afe998db44e5" width="600" alt="LibUnit Test Output" />
-</p>
+<img width="1920" height="819" alt="Image" src="https://github.com/user-attachments/assets/793c2147-15cc-4abb-8bd7-dd44a3e00197" />
 
 ---
 ## 📂 Project Structure
