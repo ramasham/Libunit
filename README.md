@@ -99,11 +99,6 @@ Functions like `printf`, `sleep`, or standard libraries like `assert.h` or `stri
 ---
 ## 👥 Authors
 This project was developed as part of the 42 School curriculum by:  
-🧑‍💻 [@ramasham](https://github.com/ramasham)  
+👩‍💻 [@ramasham](https://github.com/ramasham)  
 🧑‍💻 [@maemran](https://github.com/maemran)
-
-
-
-
-
 
