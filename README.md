@@ -52,5 +52,10 @@ libunit/
 
 ```bash
 make
+This builds the libunit.a static library and compiles the test launchers.
+🧪 Run Tests
+Run the compiled test launcher:
+./tests/launcher_atoi
+
 
 
