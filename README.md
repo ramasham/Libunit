@@ -28,17 +28,26 @@
 ## 📂 Project Structure
 ```
 libunit/
-├── framework/
+├── framework/ # Core LibUnit engine (loaders, launchers, utils)
 │ ├── launcher.c # launch_tests, test loop
 │ ├── loader.c # load_test function
-│ ├── tester.c # logic for forking/waiting
-│ ├── utils.c # helper functions (e.g., signal interpretation)
-│ └── libunit.h # all framework declarations
+│ ├── tester.c # fork + wait logic
+│ ├── utils.c # signal handling and helpers
+│ └── libunit.h # framework header
 │
-├── tests/
-│ ├── 00_launcher.c # test launcher per function
-│ ├── 01_basic_test.c # individual test files
-│ └── ...
+├── libft/ # Custom implementation of libc functions
+│ ├── ft_*.c # e.g., ft_atoi.c, ft_strlen.c, ft_split.c
+│ └── libft.h # Libft header
+│
+├── real-tests/ # Actual test cases per libft function
+│ ├── ft_atoi/ # Tests for ft_atoi
+│ ├── ft_strncmp/ # Tests for ft_strncmp
+│ ├── real_tests.h # Shared test headers
+│ └── main.c # Main to run real tests
+│
+├── tests/ # Dummy tests and crash scenario examples
+│ ├── dummy/ # Includes segfault, bus error, etc.
+│ └── main.c # Entry point for dummy tests
 │
 ├── Makefile
 └── README.md
