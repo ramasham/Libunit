@@ -25,6 +25,11 @@
 
 ---
 
+## 📄 Sample Output
+
+Typical terminal output after running tests:
+
+---
 ## 📂 Project Structure
 ```
 libunit/
