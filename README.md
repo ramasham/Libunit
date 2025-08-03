@@ -87,9 +87,6 @@ This project was developed as part of the 42 School curriculum by:
 🧑‍💻 [@ramasham](https://github.com/ramasham)  
 🧑‍💻 [@maemran](https://github.com/maemran)
 
----
-
-> 🧠 _Built for reliability. Tested for edge cases. Designed for 42._  
 
 
 
