@@ -46,16 +46,52 @@ libunit/
 
 ---
 
-## ⚙️ Usage
+## ✅ Key Features
 
-### 🔧 Compile
+- 🧩 **Modular Design**: Easily integrate with multiple functions (e.g., `ft_strlen`, `ft_atoi`, etc.)
+- 🔒 **Process Isolation**: Ensures crashes in one test do not affect others
+- ⚠️ **Signal Detection**: Handles segmentation faults, bus errors, aborts, timeouts, and more
+- 📋 **Detailed Output**: Displays per-test result and summary report
+- 🧱 **Reusability**: Designed to serve multiple test sets by just changing the test launcher
+- 🧑‍🎓 **42-Compliant**: Only uses allowed functions (e.g., `malloc`, `fork`, `wait`, `write`, `signal`, etc.)
 
-```bash
-make
-This builds the libunit.a static library and compiles the test launchers.
-🧪 Run Tests
-Run the compiled test launcher:
-./tests/launcher_atoi
+---
+
+## 🔍 Typical Use Case
+
+LibUnit is commonly used in 42 projects to validate implementations of functions such as:
+- `ft_strlen`
+- `ft_atoi`
+- `ft_strncmp`
+- Custom algorithms or sorting logic
+
+Each test can validate correct outputs, boundary cases, and intentional errors, providing a **robust safety net** before peer evaluations.
+
+---
+
+## 🔒 Allowed Functions
+
+LibUnit strictly adheres to the functions permitted by the 42 subject:
+
+- `malloc`, `free`
+- `write`, `exit`
+- `fork`, `wait`, `waitpid`, `kill`
+- `signal`, `alarm`
+- `setitimer`, `gettimeofday`
+
+Functions like `printf`, `sleep`, or standard libraries like `assert.h` or `string.h` are intentionally **excluded** to meet project norms.
+
+---
+## 👥 Authors
+This project was developed as part of the 42 School curriculum by:  
+🧑‍💻 [@ramasham](https://github.com/ramasham)  
+🧑‍💻 [@maemran](https://github.com/maemran)
+
+---
+
+> 🧠 _Built for reliability. Tested for edge cases. Designed for 42._  
+
+
 
 
 
