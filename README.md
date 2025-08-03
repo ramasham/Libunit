@@ -28,7 +28,7 @@
 ## 📄 Sample Output
 Typical terminal output after running tests:
 
-<img width="800" height="819" alt="Image" src="https://github.com/user-attachments/assets/696d0fa6-8d7a-4b0c-8791-95d886dc83a3" />
+<img width="798" height="836" alt="Image" src="https://github.com/user-attachments/assets/62fc6bdf-5fce-4b78-aefd-f0d4b7a34036" />
 
 ---
 ## 📂 Project Structure
